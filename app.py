@@ -189,7 +189,7 @@ def load_data(csv_path: str) -> tuple[pd.DataFrame, pd.DataFrame]:
 # =============================================================================
 # LOAD
 # =============================================================================
-CSV_PATH = "data/Expanded_Dataset.csv"
+CSV_PATH = "Expanded_Dataset.csv"
 if not os.path.exists(CSV_PATH):
     st.error(f"{CSV_PATH} not found. Put it in the same folder as app.py.")
     st.stop()
